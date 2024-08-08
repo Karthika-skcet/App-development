@@ -1,0 +1,93 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url("https://media1.thehungryjpeg.com/thumbs2/ori_3492724_ec3010b74292f083042b11e510c663b1e4efb4b4_pharmaceutical-pills-background-medicine-drugs-in-capsules-medical-t.jpg");
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:100vw;
+  background: url("https://www.brother.eu/-/media/images/brother-uk/blog/posts/1b1-2_fb_504px.gif?h=313&la=en&w=504&rev=a7843dc1be224b05ab8679066a3d8b19&hash=32A9736CF11BBF622A64EA6D286EC28A8BF48537");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.account-type-selection,
+.login-form-container {
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.login-form-container {
+  max-width: 400px;
+  width: 100%;
+  
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #7300ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

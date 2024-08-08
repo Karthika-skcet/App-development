@@ -1,0 +1,79 @@
+/* Ensure that the container covers the entire viewport */
+body,html{
+  width:100%;
+  height:100%;
+}
+.home {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.home-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar span {
+  margin: 0 10px;
+  font-size: 1em;
+}
+
+.search-bar button:first-of-type {
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: white;
+}
+
+.search-bar button:last-of-type {
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+}

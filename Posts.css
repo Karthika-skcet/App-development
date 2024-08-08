@@ -1,0 +1,72 @@
+.post-background {
+    background-image: url('https://cdn.dribbble.com/users/4279575/screenshots/15172726/media/5ab1a89af8aedba97f59be8564b3af82.gif');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container without distortion */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh; /* Make sure it covers the full viewport height */
+    overflow: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .post-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: 350px;
+    margin-top: 200px;
+    margin-right: 50px;
+    background-color: lightcyan;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  }
+  
+  .medicine-card {
+    background-color: lightseagreen;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .medicine-card strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .total {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .upload-section {
+    margin-top: 20px;
+  }
+  
+  .file-preview {
+    margin-top: 10px;
+  }
+  
+  .file-preview img {
+    max-width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .post-btn:hover {
+    background-color: #0056b3;
+  }
